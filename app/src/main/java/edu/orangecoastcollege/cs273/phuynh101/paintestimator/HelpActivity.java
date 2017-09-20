@@ -33,8 +33,6 @@ public class HelpActivity extends AppCompatActivity {
      */
     protected void goBack(View v)
     {
-        Intent goBackIntent = new Intent(this, MainActivity.class);
-        startActivity(goBackIntent);
         finish();
     }
 }
